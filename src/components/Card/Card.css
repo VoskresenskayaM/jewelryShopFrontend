@@ -1,0 +1,177 @@
+.card__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 380px;
+    min-height: 472px;
+    border-radius: 8px;
+    position: relative;
+}
+/*shop*/
+.card__shop-container {
+    max-width: 300px;
+    min-height: 392px;
+}
+
+/*.card__img-hover-block {
+    background-color: #ffffff;
+    opacity: 0.6;
+    /*position: absolute;
+    width: 100%;
+    height: 380px;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+}*/
+
+.card__img-hover-block:hover {
+    visibility: hidden;
+}
+
+.card__img-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.6);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 380px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+/*shop*/
+.card__shop-img-list{
+    height: 392px;
+}
+
+.card__img-list:hover {
+    opacity: 1;
+}
+
+.card__islike{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.card__islike_inactiv{
+    opacity: 0;
+}
+
+.card__img-list-item {
+    cursor: pointer;
+}
+
+.card__basket,
+.card__like {
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: width, margin-left, margin-right, height .5s ease;
+}
+
+.card__basket:hover,
+.card__like:hover {
+    width: 33px;
+    height: 33px;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+.card__popup {
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: width, margin-left, margin-right, height .5s ease;
+    opacity: 1;
+}
+
+.card__popup:hover {
+    width: 39px;
+    height: 39px;
+    margin-left: 11px;
+    margin-right: 12px;
+}
+
+.card__img {
+    max-width: 380px;
+    min-height: 380px;
+    object-fit: cover;
+}
+/*shop*/
+.card__shop-img{
+    max-width: 300px;
+    min-height: 300px;
+}
+
+.card__title {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 24px 0 0 0;
+}
+
+.card__price {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #A18A68;
+    margin: 16px 0 0 0;
+}
+
+.card__price::before {
+    content: '₽ ';
+}
+
+.card__isSale {
+    min-width: 46px;
+    min-height: 24px;
+    background-color: #A18A68;
+    border-radius: 4px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.card__isSale_inactiv{
+    opacity: 0;
+}
+
+.card__isSold{
+    min-width: 63px;
+    min-height: 24px;
+    background-color: #A18A68;
+    border-radius: 4px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.card__isSold_inactiv{
+    opacity: 0;
+}
+

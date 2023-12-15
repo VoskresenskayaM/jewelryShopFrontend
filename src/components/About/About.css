@@ -1,0 +1,36 @@
+.about__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 670px;
+    justify-content: center;
+    padding-bottom: 92px;
+}
+
+.about__title {
+    text-align: center;
+    font-size: 33px;
+    line-height: 43px;
+    font-weight: 500;
+    margin: 96px 0 0 0;
+}
+
+.about__subtitle{
+    text-align: center;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 24px 0 0 0;
+}
+
+.about__depiction{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    margin: 46px 0 0 0;
+}
+
+.about__depiction-item{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+}

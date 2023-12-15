@@ -1,0 +1,100 @@
+.header {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 42px;
+    border-bottom: solid 1px #D8D8D8;
+    padding-bottom: 17px;
+}  
+
+.header__menu-contaner {
+    display: flex;
+    flex-direction: row;
+    min-width: 318px;
+    justify-content: space-between;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    max-height: 27px;
+    border-right: solid 1px #D8D8D8;
+}
+
+.header__menu-list {
+    display: flex;
+    flex-direction: flex-start;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 27px;
+    min-width: 200px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header__menu-elem {
+    text-decoration: none;
+    margin-right: 64px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 27px;
+    padding-bottom: 36px;
+    transition: opacity .5s ease;
+}
+
+.header__menu-elem:hover {
+    border-bottom: solid 2px #000000;
+    opacity: 0.6;
+}
+
+.header__account-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.header__basket-elem{
+    margin-left: 39px;
+    height: 21px;
+    width: 21px;
+    transition: width, margin-left, margin-right, height .5s ease;
+}
+
+.header__basket-elem:hover{
+    margin-left: 36px;
+    height: 24px;
+    width: 24px;
+}
+
+.header__account-elem{          
+    margin-left: 39px;
+    height: 21px;
+    width: 21px;
+    transition: width, margin-left, margin-right, height .5s ease;
+}
+
+.header__menu-elem_exit{
+    margin-left: 39px;
+    margin-right: 9px;
+    height: 0px;
+  
+}
+.header__menu-elem_exit:hover{
+    border-bottom: none;
+    opacity: 0.6;
+}
+.header__account-elem:hover{          
+    margin-left: 36px;
+    height: 24px;
+    width: 24px;
+}
+
+.header__menu-elem_admin{
+    display: none; 
+}
+
+

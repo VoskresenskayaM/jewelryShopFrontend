@@ -1,0 +1,5 @@
+.admin__container{
+   min-width: 700px;
+   padding-bottom: 600px;
+   display: flex;
+}

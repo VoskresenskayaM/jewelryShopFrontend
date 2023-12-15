@@ -1,0 +1,1 @@
+import './GalleryTitle.css'

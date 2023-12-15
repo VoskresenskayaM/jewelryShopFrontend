@@ -1,0 +1,34 @@
+.dotnavigation{
+    border-radius: 4.57px;
+    height: 9.14px;
+    width: 9.14px;
+    background-color:  #ffffff;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 2.5px;
+    transition: opacity .5s ease;
+    cursor: pointer;
+}
+
+.dotnavigation:hover{
+   /* border-radius: 9px;
+    height: 16px;
+    width:  16px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-top: 0px;*/
+  opacity: 0.6;
+}
+
+.dotnavigation_activ{
+    border-radius: 8px;
+    height: 16px;
+    width:  16px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+

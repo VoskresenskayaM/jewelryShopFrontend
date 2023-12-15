@@ -1,0 +1,31 @@
+.productnavblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+
+.productnavblock__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.productnavblock__list-item {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 99px 96px 0 0;
+    padding-bottom: 34px;
+    color: #707070;
+}
+
+.productnavblock__list-item_activ{
+    color: #000000;
+    border-bottom: 1px solid #000000;
+}

@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'PT Astra';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./pt-astra-sans_regular.ttf);
+  }
+
+ /* @font-face {
+    font-family: 'DM Sans';
+    font-style:  medium;
+    font-weight: 500;
+    font-display: swap;
+    src: url(./DMSans_18pt-Medium.ttf);
+  }*/
+
+  @font-face {
+    font-family: 'PT Astra';
+    font-style:  bold;
+    font-weight: 700;
+    font-display: swap;
+    src: url(./pt-astra-sans_bold.ttf);
+  }
+
+  @font-face {
+    font-family: 'Allerta Stencil';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./AllertaStencil-Regular.ttf);
+  }

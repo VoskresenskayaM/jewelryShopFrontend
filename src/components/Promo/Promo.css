@@ -1,0 +1,7 @@
+.promo__container {
+    display: flex;
+    flex-direction: column;
+    min-width: 1248px;
+    height: 646px;
+    opacity: 0.6;
+}

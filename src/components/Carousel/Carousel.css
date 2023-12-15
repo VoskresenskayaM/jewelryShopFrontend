@@ -1,0 +1,114 @@
+.carousel__container {
+    margin-top: 25px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/*.carousel__container-animation {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}*/
+.entering, .entered {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.carousel__dot-list-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel__dot-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin-top: 100px;
+
+}
+
+.carousel__title-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin-top: 226px;
+    margin-left: 39px;
+}
+
+.carousel__title {
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 43px;
+    margin: 0;
+}
+
+.carousel__price {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 35px;
+    margin: 16px 0;
+}
+
+.carousel__price::before {
+    content: '₽ ' ;
+}
+
+.carousel__button {
+    margin: 48px 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    border-radius: 6px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    height: 53px;
+    width: 193px;
+    transition: opacity .5s ease;
+    cursor: pointer;
+}
+
+.carousel__button:hover {
+    opacity: 0.6;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
