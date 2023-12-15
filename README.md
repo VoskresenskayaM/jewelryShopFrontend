@@ -21,7 +21,11 @@ https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/a70932d8-
   - ставить лайки понравившемуся товару
   - добавлять товар в корзину
   - добавлять отзывы о товаре
-https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/9f7091b3-363e-497d-81d8-7cff54f826c1
+
+
+https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/2c3f50c7-ef03-4fa2-8d23-c1806f84aa93
+
+
 - Валидация форм
   
 ![валидация](https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/bdc03186-9f14-426a-a103-4896fae8142b)
