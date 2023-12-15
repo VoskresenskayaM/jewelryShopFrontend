@@ -9,7 +9,11 @@
 ## Функциональность
 - на главной странице реализован слайдер
 
-https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/f0ee8e43-9396-47bd-99dd-e5a6087b59a1
+
+
+https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/a70932d8-a909-4c58-b0b8-524b0ec28631
+
+
 
 - Защищенность роутов( неавторизованный пользователь не может перейти на страницы: корзина)
 - Ограниченная функциональность у неавторизованного пользователя.
@@ -17,32 +21,43 @@ https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/f0ee8e43-
   - ставить лайки понравившемуся товару
   - добавлять товар в корзину
   - добавлять отзывы о товаре
-
-
-https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/dcd81136-a31b-4df2-b487-5b63fe24fd1d
-
-
+https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/9f7091b3-363e-497d-81d8-7cff54f826c1
 - Валидация форм
   
-  ![валидация](https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/5c68f178-715d-489a-aa49-2a4e551b2187)
+![валидация](https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/bdc03186-9f14-426a-a103-4896fae8142b)
+
 
 - Возможность поиска товаров с фильтрацией по типу материалу и бренду
   
-https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/0f643afd-bcf8-4337-b28b-8522fcf491e6
+
+
+https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/2ff55caf-611f-4fa4-adc1-2f6eda27b435
+
+
 
 - Пользователь администратор может добавлять бренды, типы материалы и товары. У пользователя с ролью user доступа к админ панели нет
-![админ панель](https://github.com/VoskresenskayaM/jewelryShopFrontend/blob/main/src/images/imagesForReadme/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C1.jpg)
+  
+![админпанель1](https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/e82ee71d-f09d-4f43-acb9-9bba56e9221b)
 
 - реализована пагинация для перехода по страницам
   
-https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/e4bc9b70-a569-444e-aa30-670e6df2360f
+
+
+https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/eddc9506-0ba0-4927-840a-aed06ab7a036
+
 
 - авторизиванный пользователь может добавлять и удалять товары в корзину, изменять колличество товара, общая стоимость корзины пересчитывается
   
-https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/87d28fdb-cc11-4cc9-8987-8bdf34e21714
+
+
+https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/0f108636-6206-451d-8e36-377b4cae0447
+
+
 
 - запоминание состояния входа пользователя (при обновлении страницы будет выполнен автоматический вход)
-![регистрация](https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/ec9db039-7209-4b87-ba16-29a219aaa611)
+
+
+![регистрация](https://github.com/VoskresenskayaM/jewelryShopFrontend/assets/57997785/507d2d34-336c-4cb7-b2b3-e97b25e56611)
 
 - реализована микроанимация всех ссылок и кнопок
 - при верстке использовались flex 
